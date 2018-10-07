@@ -1,0 +1,14 @@
+{
+  "name": "my_protfolio",
+  "version": "1.0.0",
+  "description": "Responsive protfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Vahid Sediqi",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
