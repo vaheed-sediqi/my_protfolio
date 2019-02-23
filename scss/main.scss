@@ -1,3 +1,4 @@
+
 @import 'config';
 @import 'menu';
 * {
@@ -53,6 +54,8 @@ main {
 
         a {
             padding:0.4rem;
+            transform: rotate(45deg);
+
             &:hover {
                 color:$secondary-color;
                 @include easeOut();
